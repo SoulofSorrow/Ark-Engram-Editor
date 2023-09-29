@@ -20,15 +20,7 @@ Dieses Python-Programm bietet eine grafische Benutzeroberfläche (GUI) zur Verwa
 
 2. Öffnen Sie ein Eingabeaufforderungs- oder Terminalfenster und wechseln Sie zum Verzeichnis, in dem sich das Programm befindet.
 
-<<<<<<< Updated upstream
-<<<<<<< 8934efff7190ce2d4edcb1c35f6924037e3da460
-3. Verwenden Sie den Befehl `python deine_datei.py`, um das Programm auszuführen (ersetzen Sie `deine_datei.py` durch den tatsächlichen Dateinamen).
-=======
 3. Verwenden Sie den Befehl `python start.py`, um das Programm auszuführen.
->>>>>>> Update README.md
-=======
-3. Verwenden Sie den Befehl `start.py`, um das Programm auszuführen.
->>>>>>> Stashed changes
 
 4. Das Programm startet und zeigt eine grafische Benutzeroberfläche an, in der Sie Engrammeinträge verwalten können.
 
