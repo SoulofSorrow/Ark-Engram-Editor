@@ -1,39 +1,42 @@
-# Werkzeug zur Verwaltung von Engrammeinträgen
+# Ark Engram Entry Management Tool
+[![de](https://img.shields.io/badge/lang-de-yello)](https://github.com/SoulofSorrow/Ark-Engram-Editor/blob/main/README.de.md)
 
-Dieses Python-Programm bietet eine grafische Benutzeroberfläche (GUI) zur Verwaltung von Engrammeinträgen in einer textbasierten Konfigurationsdatei. Das Tool wurde mit dem tkinter-Modul erstellt und ermöglicht das Hinzufügen, Bearbeiten, Löschen, Laden und Speichern von Engrammeinträgen.
+**Ark Engram Editor**
 
-## Funktionen
+This Python program provides a graphical user interface (GUI) for managing engram entries in a text-based configuration file. The tool is created using the tkinter module and allows you to add, edit, delete, load, and save engram entries.
 
-- **Einträge hinzufügen**: Fügen Sie neue Engrammeinträge hinzu, indem Sie die erforderlichen Informationen eingeben, einschließlich Engrammname, Kosten, Stufenanforderungen und mehr.
+## Features
 
-- **Einträge bearbeiten**: Ändern Sie vorhandene Einträge, indem Sie sie auswählen und die Werte in den Eingabefeldern ändern.
+- **Add Entries**: Add new engram entries by entering the required information, including engram name, cost, level requirements, and more.
 
-- **Einträge löschen**: Entfernen Sie unerwünschte Engrammeinträge aus der Liste.
+- **Edit Entries**: Modify existing entries by selecting them and changing the values in the input fields.
 
-- **Daten laden**: Laden Sie Engrammdaten aus einer externen Konfigurationsdatei, indem Sie die Datei auswählen.
+- **Delete Entries**: Remove unwanted engram entries from the list.
 
-- **Daten speichern**: Speichern Sie die aktuellen Engrammeinträge in einer Datei.
+- **Load Data**: Load engram data from an external configuration file by selecting the file.
 
-## Verwendung
+- **Save Data**: Save the current engram entries to a file.
 
-1. Stellen Sie sicher, dass Python auf Ihrem Computer installiert ist.
+## Usage
 
-2. Öffnen Sie ein Eingabeaufforderungs- oder Terminalfenster und wechseln Sie zum Verzeichnis, in dem sich das Programm befindet.
+1. Ensure that Python is installed on your computer.
 
-3. Verwenden Sie den Befehl `python start.py`, um das Programm auszuführen.
+2. Open a command prompt or terminal window and navigate to the directory where the program is located.
 
-4. Das Programm startet und zeigt eine grafische Benutzeroberfläche an, in der Sie Engrammeinträge verwalten können.
+3. Use the command `python start.py` to run the program.
 
-## Hinweise
+4. The program will start and display a graphical user interface where you can manage engram entries.
 
-- Sie können neue Engrammeinträge hinzufügen, indem Sie die erforderlichen Informationen in die Eingabefelder eingeben und auf die Schaltfläche "Hinzufügen" klicken.
+## Notes
 
-- Bearbeiten Sie vorhandene Einträge, indem Sie sie in der Tabelle auswählen und auf die Schaltfläche "Bearbeiten" klicken.
+- You can add new engram entries by entering the required information into the input fields and clicking the "Add" button.
 
-- Löschen Sie Einträge, indem Sie sie in der Tabelle auswählen und auf die Schaltfläche "Löschen" klicken.
+- Edit existing entries by selecting them in the table and clicking the "Edit" button.
 
-- Verwenden Sie die Schaltflächen "Daten laden" und "Engrammeinträge laden" zum Importieren von Daten aus externen Dateien.
+- Delete entries by selecting them in the table and clicking the "Delete" button.
 
-- Speichern Sie die aktuellen Engrammeinträge in einer Datei, indem Sie auf die Schaltfläche "Daten speichern" klicken.
+- Use the "Load Data" and "Load Engram Entries" buttons to import data from external files.
 
-Dieses Tool bietet eine einfache Möglichkeit, Engrammeinträge für Spiele oder Anwendungen zu organisieren und zu verwalten, die textbasierte Konfigurationsdateien verwenden. Es ist besonders nützlich, wenn Sie viele Einträge verwalten müssen und eine benutzerfreundliche Oberfläche bevorzugen.
+- Save the current engram entries to a file by clicking the "Save Data" button.
+
+This tool provides an easy way to organize and manage engram entries for games or applications that use text-based configuration files. It is particularly useful when you need to manage many entries and prefer a user-friendly interface.
