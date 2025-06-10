@@ -19,7 +19,7 @@ This Python program provides a graphical user interface (GUI) for managing engra
 
 ## Usage
 
-1. Ensure that Python is installed on your computer.
+1. Ensure that Python is installed on your computer. The Tkinter module is included with standard Python distributions, so no additional packages are required.
 
 2. Open a command prompt or terminal window and navigate to the directory where the program is located.
 

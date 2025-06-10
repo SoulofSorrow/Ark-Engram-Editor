@@ -1,1 +1,2 @@
-tk
+# No external packages are required.
+# Tkinter is included with standard Python installations.
