@@ -33,7 +33,7 @@ def add_data():
         ])
         update_table()
     except ValueError:
-        tk.messagebox.showerror("Fehler", "EngramPointsCost und EngramLevelRequirement müssen Ganzzahlen sein.")
+        messagebox.showerror("Fehler", "EngramPointsCost und EngramLevelRequirement müssen Ganzzahlen sein.")
 
 # Funktion zum Bearbeiten der ausgewählten Zeile
 def edit_data():
@@ -56,7 +56,7 @@ def edit_data():
         update_table()
         clear_entries()
     except ValueError:
-        tk.messagebox.showerror("Fehler", "EngramPointsCost und EngramLevelRequirement müssen Ganzzahlen sein.")
+        messagebox.showerror("Fehler", "EngramPointsCost und EngramLevelRequirement müssen Ganzzahlen sein.")
 
 # Funktion zum Löschen der ausgewählten Zeile
 def delete_data():
@@ -116,7 +116,7 @@ def extract_and_add_data(input_string):
         ])
         update_table()
     except (ValueError, IndexError):
-        tk.messagebox.showerror("Fehler", "Ungültiges Datenformat im Eingabestring.")
+        messagebox.showerror("Fehler", "Ungültiges Datenformat im Eingabestring.")
 
 # Funktion zum Laden von Daten aus einer Datei
 def load_data_from_file():
