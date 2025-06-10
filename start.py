@@ -37,7 +37,11 @@ def add_data():
 
 # Funktion zum Bearbeiten der ausgewählten Zeile
 def edit_data():
-    selected_item = tree.selection()[0]
+    selected_items = tree.selection()
+    if not selected_items:
+        messagebox.showerror("Fehler", "Keine Zeile ausgewählt.")
+        return
+    selected_item = selected_items[0]
     selected_index = tree.index(selected_item)
     try:
         engram_class_name = engram_entry.get()
@@ -60,7 +64,11 @@ def edit_data():
 
 # Funktion zum Löschen der ausgewählten Zeile
 def delete_data():
-    selected_item = tree.selection()[0]
+    selected_items = tree.selection()
+    if not selected_items:
+        messagebox.showerror("Fehler", "Keine Zeile ausgewählt.")
+        return
+    selected_item = selected_items[0]
     selected_index = tree.index(selected_item)
     data.pop(selected_index)
     update_table()
