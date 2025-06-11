@@ -162,8 +162,8 @@ root.title("Engram Entries")
 
 # Automatische Anpassung der Größe an die Fenstergröße
 root.geometry("1024x768")  # Startgröße
-root.grid_rowconfigure(6, weight=1)
-root.grid_columnconfigure(0, weight=1)
+# root.grid_rowconfigure(6, weight=1)
+# root.grid_columnconfigure(0, weight=1)
 
 # Rahmen für die Tabelle erstellen
 table_frame = ttk.Frame(root)
