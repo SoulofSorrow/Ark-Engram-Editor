@@ -20,8 +20,8 @@ def add_data():
     try:
         engram_class_name = engram_entry.get()
         engram_hidden = hidden.get()
-        points_cost_value = int(points_cost.get()) if points_cost.get() else 2
-        level_requirement_value = int(level_requirement.get()) if level_requirement.get() else 2
+        points_cost_value = int(points_cost.get()) if points_cost.get().strip() != "" else 2
+        level_requirement_value = int(level_requirement.get()) if level_requirement.get().strip() != "" else 2
         remove_pre_req_value = remove_pre_req.get()
 
         data.append([
@@ -42,8 +42,8 @@ def edit_data():
     try:
         engram_class_name = engram_entry.get()
         engram_hidden = hidden.get()
-        points_cost_value = int(points_cost.get()) if points_cost.get() else 2
-        level_requirement_value = int(level_requirement.get()) if level_requirement.get() else 2
+        points_cost_value = int(points_cost.get()) if points_cost.get().strip() != "" else 2
+        level_requirement_value = int(level_requirement.get()) if level_requirement.get().strip() != "" else 2
         remove_pre_req_value = remove_pre_req.get()
 
         data[selected_index] = [
