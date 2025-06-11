@@ -17,7 +17,7 @@ Dieses Python-Programm bietet eine grafische Benutzeroberfläche (GUI) zur Verwa
 
 ## Verwendung
 
-1. Stellen Sie sicher, dass Python auf Ihrem Computer installiert ist.
+1. Stellen Sie sicher, dass Python auf Ihrem Computer installiert ist. Das Tkinter-Modul ist bereits in der Standardinstallation von Python enthalten, daher sind keine zusätzlichen Pakete erforderlich.
 
 2. Öffnen Sie ein Eingabeaufforderungs- oder Terminalfenster und wechseln Sie zum Verzeichnis, in dem sich das Programm befindet.
 
