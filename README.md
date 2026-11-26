@@ -40,3 +40,8 @@ This Python program provides a graphical user interface (GUI) for managing engra
 - Save the current engram entries to a file by clicking the "Save Data" button.
 
 This tool provides an easy way to organize and manage engram entries for games or applications that use text-based configuration files. It is particularly useful when you need to manage many entries and prefer a user-friendly interface.
+
+## Documentation
+
+- `docs/README.md`: index of the technical docs and the change records in `docs/changes/`.
+- `AGENTS.md`: instructions for AI coding agents; `CLAUDE.md` imports it.
