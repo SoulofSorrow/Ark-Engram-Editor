@@ -38,3 +38,8 @@ Dieses Python-Programm bietet eine grafische Benutzeroberfläche (GUI) zur Verwa
 - Speichern Sie die aktuellen Engrammeinträge in einer Datei, indem Sie auf die Schaltfläche "Daten speichern" klicken.
 
 Dieses Tool bietet eine einfache Möglichkeit, Engrammeinträge für Spiele oder Anwendungen zu organisieren und zu verwalten, die textbasierte Konfigurationsdateien verwenden. Es ist besonders nützlich, wenn Sie viele Einträge verwalten müssen und eine benutzerfreundliche Oberfläche bevorzugen.
+
+## Dokumentation
+
+- `docs/README.md`: Index der technischen Dokumentation und der Change-Records unter `docs/changes/`.
+- `AGENTS.md`: Arbeitsanweisungen für KI-Coding-Agents; `CLAUDE.md` importiert sie.
